@@ -1,11 +1,10 @@
-# Xguitian Libretrowave
+# Homebrew repository for libRetroWave
+
+This is a Homebrew repository for [libRetroWave](https://github.com/SudoMaker/RetroWave).
 
 ## How do I install these formulae?
 
-`brew install xguitian/libretrowave/<formula>`
+`brew install xguitian/libretrowave/libretrowave`
 
-Or `brew tap xguitian/libretrowave` and then `brew install <formula>`.
+Or `brew tap xguitian/libretrowave` and then `brew install libretrowave`.
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
