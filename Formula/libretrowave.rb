@@ -5,6 +5,13 @@ class Libretrowave < Formula
   sha256 "da86c0ecfde558da6a01e5f6d1d0c6a07a164ef5cff912f7a8667089adf7ea84"
   license "AGPL-3.0-only"
 
+  bottle do
+    root_url "https://github.com/xguitian/homebrew-libretrowave/releases/download/libretrowave-0.1.0"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, monterey:     "3145a11e5a064144bf7aa4748c27141baba73e79cc6c2c7a16e7c2d61652819d"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "587ae9844288ff90db191b648fcf8cbddde4c74684fa9fa186276aecff483152"
+  end
+
   depends_on "cmake" => :build
 
   def install
